@@ -17,7 +17,7 @@ class RequestsController < ApplicationController
 	def create
 		@request = current_user.build_request(request_params) if current_user.request.nil?
 		if @request.save
-			redirect_to root_path, notice: "Request for Account Acticvation has been made successfully."
+			redirect_to root_path, notice: "Request for Account Activation has been made successfully."
 		else
 			render 'new'
 		end

@@ -294,7 +294,7 @@ h1 .subtitle{
 }
 .navbar:not(.navbar-transparent).navbar-ct-black{
     background-color: black;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: #10151c;
 }
 
 .dropdown-menu > li > a {

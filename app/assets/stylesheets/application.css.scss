@@ -22,19 +22,19 @@
 
 .notice_wrapper{
 	position: absolute;
-	top: 0px;
-	width: 50%;
-    margin-left: 35rem;
+	top: 20%;
+	width: 30%;
+    margin-left: 35%;
 	z-index: 999;
-	background-color: rgba(255,255,255,0.9);
-    border-radius: 5rem;
+	background-color: rgb(217,237,247);
+   
 	.alert {
 		padding: 0.6rem;
 	}
 	p {
 		text-align: center;
 		padding: auto;
-		margin: auto;
+		margin: 0;
         margin-top: 20px;
 		font-size: 1.4rem;
 		font-weight: 100;
